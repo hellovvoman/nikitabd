@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Послание из Котодарианской Галактики</title>
+    <style>
+        /* Основной стиль страницы */
+        body {
+            background-color: black; /* Черный фон, на случай если изображение не загрузится */
+            background-image: url('https://your-username.github.io/repository-name/galaxy-background.jpg'); /* Замените ссылку на ваше изображение */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Заголовок с анимацией */
+        h1 {
+            font-size: 50px;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.6);
+            animation: glow 2s ease-in-out infinite;
+            margin-top: 20%;
+        }
+
+        /* Текст сообщения */
+        p {
+            font-size: 24px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
+            margin-top: 20px;
+        }
+
+        /* Анимация сияния заголовка */
+        @keyframes glow {
+            0% { text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.6); }
+            50% { text-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 0 50px rgba(255, 255, 255, 0.6); }
+            100% { text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.6); }
+        }
+
+        /* Анимация звездного неба */
+        @keyframes starry-night {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Звезды говорят...</h1>
+    <p>Найди ключ к древнему замку. Код — скрыт в свете.</p>
+
+    <!-- Временно добавим фоновое изображение через JavaScript, если CSS не работает -->
+    <script>
+        // Попробуем добавить фон через JavaScript, если CSS не работает
+        document.body.style.backgroundImage = "url('https://your-username.github.io/repository-name/galaxy-background.jpg')";
+    </script>
+</body>
+</html>
